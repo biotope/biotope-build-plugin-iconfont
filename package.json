@@ -1,0 +1,35 @@
+{
+  "version": "0.0.0",
+  "name": "@biotope/build-plugin-iconfont",
+  "description": "A plugin for @biotope/build to create iconfonts from svg",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biotope/biotope-build-plugin-iconfont.git"
+  },
+  "author": "Biotope",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "release": "np --no-yarn",
+    "start": "tsc -p tsconfig.json --watch",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "chokidar": "^3.1.0",
+    "deepmerge": "^4.0.0",
+    "fs-extra": "^8.1.0",
+    "webfont": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "jest": "^24.9.0",
+    "np": "^5.1.0",
+    "typescript": "^3.6.3"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
