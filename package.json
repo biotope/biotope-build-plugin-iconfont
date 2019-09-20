@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "1.0.0",
   "name": "@biotope/build-plugin-iconfont",
   "description": "A plugin for @biotope/build to create iconfonts from svg",
   "main": "dist/index.js",
