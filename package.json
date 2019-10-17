@@ -16,7 +16,7 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "chokidar": "^3.1.0",
+    "chokidar": "^3.2.2",
     "deepmerge": "^4.0.0",
     "fs-extra": "^8.1.0",
     "webfont": "^9.0.0"
